@@ -841,7 +841,6 @@ p {
 
 .customers-checkbox-window {
   display: inline-flex;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -853,6 +852,12 @@ p {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   fill: transparent;
+}
+
+.customers-checkbox-window {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkbox:checked + .modal-checkbox-window > .customers-checkbox-window {
